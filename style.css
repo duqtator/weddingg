@@ -11,3 +11,12 @@ body {
     line-height: 1.5;
     color: #444349;
 }
+.location, .programs, .gifts, .faq, .contact, {
+    width: 95%;
+    margin: 1.5rem auto;
+    paddign: .5rem  1rem;
+    text-align: center;
+}
+h1, h2,{
+    font-family: 'Great Vibes', cursive;
+}
