@@ -42,13 +42,28 @@ a:hover {
 .hero-text-wrapper {
     display: table-cell;
     vertical-align: middle;
+    
 }
 .hero-text {
     margin: 0 auto;
     padding: .6rem;
     color: hsla(0, 0%, 100%, .9);
     background: hsla(100, 0%, 0%, .5);
+
 }
+@media (min-width: 768px) {
+
+    .hero-text {
+      padding: 1.25rem;
+      border-radius: 4px;
+      width: 50%;
+    }
+  
+    .hero-text h1 {
+      font-size: 7rem;
+    }
+  
+  }
 .hero-text h1{
     font-size: 4rem;
     color: #d2ba87;
